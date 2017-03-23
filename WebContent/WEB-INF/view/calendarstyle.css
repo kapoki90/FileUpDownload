@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+a:LINK {text-decoration: none; color: navy;}
+a:VISITED {text-decoration: none; color: green;}
+a:HOVER {text-decoration: none; color: red;}
+a:ACTIVE {text-decoration: none; color: maroon;}
+
+th {color: navy; font-size: 25pt;}
+tr {height: 60px;}
+td.sun {color: red; text-align: center; font-size: 20pt; font-weight: bold; width: 100px;}
+td.etc {text-align: center; font-size: 20pt; font-weight: bold; width: 100px;}
+td.sat {color: blue; text-align: center; font-size: 20pt; font-weight: bold; width: 100px;}
+
+td.day {border: 1pt solid; border-color: gray; text-align: right; vertical-align: top;}
+td.sunday {border: 1pt solid; border-color: gray; text-align: right; vertical-align: top; color: red;}
+td.satday {border: 1pt solid; border-color: gray; text-align: right; vertical-align: top; color: blue;}
+td.hday {border: 1pt solid; border-color: gray; text-align: right; vertical-align: top; color: red;}
+td.before {border: 1pt solid; border-color: gray; text-align: right; vertical-align: top; font-size: 12px;
+	background: #8983F0;}
+td.after {border: 1pt solid; border-color: gray; text-align: right; vertical-align: top; font-size: 12px;
+	background: #B0FCAB;}
+span {font-size: 12px;}
+
+
+

@@ -1,0 +1,22 @@
+drop table fileboard;
+create table fileboard (
+    idx int not null primary key,
+    ref int not null,
+    lev int not null,
+    seq int not null,
+    filename varchar2(1000),
+    folderName varchar2(800),
+    fileExtension varchar2(50),
+    filesize number,
+    wdate TIMESTAMP (6) DEFAULT sysdate
+);
+drop sequence fileboard_idx_seq;
+create sequence fileboard_idx_seq;
+
+select * from fileboard; 
+
+SELECT idx,ref,lev,seq,filename,folderName,fileExtension,filesize,wdate FROM fileboard where idx=1 order by ref desc
+
+SELECT * FROM fileboard order by WDATE desc;
+
+UPDATE fileboard SET filesize = filesize+1024 WHERE ref=1 and lev=0;
